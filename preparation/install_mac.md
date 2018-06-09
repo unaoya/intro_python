@@ -80,7 +80,7 @@ python
 
 まず
 ```bash
-vi .bash/profile
+vi .bash_profile
 ```
 と入力してviを起動します。
 次にキーボードの`i`を入力し
