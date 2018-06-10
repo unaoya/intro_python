@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,10 +16,9 @@ prediction = np.dot(X, coeff)
 error = y - prediction
 
 plt.scatter(df[predictor], df[response])
-x=np.linspace(df[predictor].min(axis=0)[0], df[predictor].max(axis=0)[0])
+x = np.linspace(df[predictor].min(axis=0)[0], df[predictor].max(axis=0)[0])
 plt.plot(x, np.dot(np.hstack((np.ones((x.shape[0],1)), x.reshape(-1,1))), coeff)) # 回帰直線
 plt.show()
-
 
 # linear regression classを作る
 # attributeはcoefficientsとintercept
