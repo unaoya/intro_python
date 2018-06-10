@@ -37,6 +37,11 @@ print(x)
 ## ix, loc, ilocの使い方
 特定の位置にある要素を取り出す方法がいくつかあるので、それを紹介する。
 
+注意
+`ix`は非推奨
+
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.ix.html
+
 ```python
 print(x.ix[2,1])
 print(x.ix[2,'数学'])
