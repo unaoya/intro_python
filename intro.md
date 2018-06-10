@@ -1,12 +1,4 @@
-# PyCharm
-
-6 hours to linear regression with python
-
-線形回帰を用いてデータ分析をすることを目標にして、
-6時間でpythonによるデータ分析に必要な基礎を概観する。
-
-scikit-learnなどのライブラリを使う時に、何をやっているの想像できるように
-自作クラスで線形回帰分析を行う。
+# 基礎から学ぶPython講座
 
 # Hello world!
 まずはhello worldを通してPyCharmの基本操作を学ぶ。
